@@ -1,6 +1,6 @@
 # vkucukcakar/ip-list-updater
 
-This image simply, updates Cloudflare (or other CDN) IP list and reloads Nginx (or Apache)!
+This Docker image simply, updates Cloudflare (or other CDN) IP list and reloads Nginx (or Apache)!
 
 ip-list-updater as Docker image. (ip-list-updater: Automatic CDN and bogon IP list updater for firewall and server configurations)
 
