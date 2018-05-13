@@ -35,11 +35,11 @@ RUN apk add --update \
     && rm -rf /var/cache/apk/*
 
 # Install ip-list-updater
-RUN wget --no-check-certificate https://github.com/vkucukcakar/ip-list-updater/archive/v1.0.0.tar.gz \
-    && tar -xzvf v1.0.0.tar.gz \
-    && rm v1.0.0.tar.gz \
-    && cp ip-list-updater-1.0.0/ip-list-updater.php /usr/local/bin/ \
-    && rm -rf ip-list-updater-1.0.0
+RUN wget --no-check-certificate https://github.com/vkucukcakar/ip-list-updater/archive/v1.1.0.tar.gz \
+    && tar -xzvf v1.1.0.tar.gz \
+    && rm v1.1.0.tar.gz \
+    && cp ip-list-updater-1.1.0/ip-list-updater.php /usr/local/bin/ \
+    && rm -rf ip-list-updater-1.1.0
 
 # Copy root crontab to use as template later
 RUN mkdir -p /ip-list-updater/crontabs \
